@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "MolocoAdapter", targets: ["MolocoAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/moloco/moloco-sdk-ios-spm", exact: "4.10.0"),
+    .package(url: "https://github.com/moloco/moloco-sdk-ios-spm", exact: "4.11.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MolocoAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/moloco-adapter/5.18.0/ISMolocoAdapter5.18.0.zip",
-      checksum: "3a0649e4c37176c79ac782184de6895ff90b22d7269444dc177979468fe53108"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/moloco-adapter/5.19.0/ISMolocoAdapter5.19.0.zip",
+      checksum: "480c9fecfca030b4979509e2a9b93729e3cd46b21c01459c5c8f7b24b98270cc"
     )
   ]
 )
