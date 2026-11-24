@@ -3,12 +3,12 @@ import PackageDescription
 
 let package = Package(
   name: "LevelPlay-Moloco-Adapter-Swift-Package",
-  platforms: [.iOS(.v15)],
+  platforms: [.iOS(.v12)],
   products: [
     .library(name: "MolocoAdapter", targets: ["MolocoAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/moloco/moloco-sdk-ios-spm", exact: "4.12.0"),
+    .package(url: "https://github.com/moloco/moloco-sdk-ios-spm", exact: "4.13.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MolocoAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/moloco-adapter/5.21.0/ISMolocoAdapter5.21.0.zip",
-      checksum: "ec6550a36ed1169e411382665e5984656cc773f759296451b98b625bbe48ba3a"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/moloco-adapter/5.22.0/ISMolocoAdapter5.22.0.zip",
+      checksum: "791a721e96cc8c645bfab337bb5f6e9f732615deaa6056e1dfd1e638cbe03c09"
     )
   ]
 )
